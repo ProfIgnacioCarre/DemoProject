@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This demo project is designed to help students set up a Git repository with basic branching strategies, including `main` and `develop` branches. It emphasizes the minimal Git flow required for effective version control, such as `main → feature branch → main` or `main → bugfix branch → main`. Additionally, it underscores the importance of linking all commits to their corresponding issue IDs, with all issues managed within the associated GitHub project.
+This demo project is designed to help you set up a Git repository with basic branching strategies.
 
 ## Table of Contents
 
