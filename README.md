@@ -102,17 +102,24 @@ This project utilizes a simplified Git flow to manage development:
 
 - **Commit Messages**: Each commit message should reference the associated issue ID for traceability. Use the following format:
 
-  ```
-  [Issue #ID] Brief description of the changes
-  ```
+```
+<type>[optional scope]: <description>
+[optional body]
+[optional footer(s)]
+```
 
   *Example:*
 
-  ```
-  [Issue #42] Implement user authentication feature
-  ```
+```
+feat(login): add Google authentication
 
-- **Atomic Commits**: Ensure each commit represents a single logical change to maintain a clear project history.
+Implemented OAuth2 integration to allow login with Google Added unit tests for the new flow.
+
+Issue: #45
+```
+
+- **Atomic Commits**: Ensure each commit represents a single logical change to maintain a clear and concise project history. Keep the commit message description under 50 characters for clarity.
+- **Track Issues**: Reference related issues or tickets using the optional footer (e.g., Issue: #123 or Refs: #45).
 
 ## Issue Tracking
 
